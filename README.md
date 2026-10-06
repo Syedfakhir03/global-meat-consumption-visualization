@@ -4,10 +4,6 @@ An interactive data visualization project exploring **global meat consumption, p
 
 The project combines multiple interactive visualizations into a single dashboard to help users explore how meat consumption and production vary across countries, continents, meat categories, and time.
 
-## 🔗 Live Demo
-
-**[View the interactive visualization](https://syedfakhir03.github.io/FIT3179_VIZ_2/](https://syedfakhir03.github.io/global-meat-consumption-visualization/))**
-
 ## 📊 Project Overview
 
 This project was created as an interactive data storytelling experience using **Vega-Lite, JavaScript, HTML, and CSS**.
