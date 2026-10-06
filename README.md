@@ -6,7 +6,7 @@ The project combines multiple interactive visualizations into a single dashboard
 
 ## 🔗 Live Demo
 
-**[View the interactive visualization](https://syedfakhir03.github.io/FIT3179_VIZ_2/)**
+**[View the interactive visualization]([https://syedfakhir03.github.io/FIT3179_VIZ_2/](https://syedfakhir03.github.io/global-meat-consumption-visualization/))**
 
 ## 📊 Project Overview
 
