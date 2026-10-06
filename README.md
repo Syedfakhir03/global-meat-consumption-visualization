@@ -1,192 +1,186 @@
-<div align="center">
+# 🌍 Global Meat Consumption & Production Visualization
 
-# Hi, I'm Syed Fakhar Un Nabi 👋
+An interactive data visualization project exploring **global meat consumption, production trends, regional differences, and the relationship between meat production and GDP per capita**.
 
-### Data Science • Machine Learning • Business Intelligence • AI
+The project combines multiple interactive visualizations into a single dashboard to help users explore how meat consumption and production vary across countries, continents, meat categories, and time.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Syed%20Fakhir-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-fakhir/)
-[![GitHub](https://img.shields.io/badge/GitHub-Syedfakhir03-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Syedfakhir03)
+## 🔗 Live Demo
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Data+Science+%26+Machine+Learning;Python+%7C+SQL+%7C+BigQuery+%7C+Business+Intelligence;NLP+%7C+Deep+Learning+%7C+Reinforcement+Learning;Turning+data+into+useful+decisions)](https://git.io/typing-svg)
+**[View the interactive visualization](https://syedfakhir03.github.io/FIT3179_VIZ_2/)**
 
-</div>
+## 📊 Project Overview
 
----
+This project was created as an interactive data storytelling experience using **Vega-Lite, JavaScript, HTML, and CSS**.
 
-## 👨‍💻 About Me
+It focuses on four main questions:
 
-I'm a final-year **Bachelor of Computer Science (Data Science)** student at **Monash University**, with professional experience in enterprise analytics and hands-on work across machine learning, NLP, reinforcement learning, business intelligence, ETL, statistical modelling and responsible AI.
+- Which countries consume the most meat per capita?
+- How has global meat production changed over time?
+- Which meat categories contribute most to total production?
+- Is there a relationship between GDP per capita and meat production per person?
 
-- 🎓 **Bachelor of Computer Science in Data Science**, Monash University — expected **Nov 2026**
-- 📊 **GPA:** 3.48 / 4.00
-- 💼 Former **Data Science Intern at Kasatria Technologies**, a Google Marketing Platform & Google Cloud partner
-- 🧠 Interested in **Machine Learning, NLP, Deep Learning, Reinforcement Learning, MLOps and Responsible AI**
-- 📈 Experienced with **GA4, BigQuery, Looker Studio, Power BI, Tableau and SQL**
-- ⚙️ Built projects involving **predictive modelling, BERT, anomaly detection, ETL, clustering, diffusion-bias analysis and intelligent agents**
-- 🗂️ Also trained in **Oracle Primavera P6**, WBS, CPM, baselines, resource leveling and earned value analysis
+## ✨ Key Visualizations
 
----
+### 🗺️ Global Meat Consumption Distribution
+
+A choropleth world map showing **meat consumption per capita by country**.
+
+The map makes it easy to compare consumption levels globally and identify countries with relatively high or low meat consumption.
+
+### 🥩 Global Meat Production Breakdown
+
+An interactive production chart that allows users to explore different meat categories, including:
+
+- Bovine meat
+- Fish and seafood
+- Other meat
+- Mutton and goat meat
+- Pig meat
+- Poultry meat
+
+Users can filter the visualization by meat type to compare production trends.
+
+### 📈 Global Meat Production by Continent
+
+A time-series visualization covering **1961–2021**.
+
+Users can filter by continent to explore long-term regional production patterns across:
+
+- Asia
+- Europe
+- North America
+- South America
+- Africa
+- Oceania
+
+### 💰 GDP vs Meat Production per Capita
+
+An interactive chart exploring the relationship between **GDP per capita** and **meat production per capita**.
+
+Interactive controls include:
+
+- Year selection
+- Minimum GDP filter
+- Continent filter
+- Play / pause interaction for exploring changes over time
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Vega**
+- **Vega-Lite**
+- **Vega-Embed**
+- **JSON**
+- **GitHub Pages**
 
-[![My Skills](https://skillicons.dev/icons?i=py,r,tensorflow,pytorch,sklearn,mongodb,git,bash,html,css,figma,vscode,gcp&perline=13)](https://skillicons.dev)
+## 📁 Project Structure
 
-</div>
+```text
+FIT3179_VIZ_2/
+│
+├── 5Ds Visualisation 2/
+├── Data/
+├── css/
+├── js/
+│
+├── Bubblegraph.vg.json
+├── StackedArea.vg.json
+├── Stackedbar.vg.json
+├── anotherone_bubble.vg.json
+├── sybol_2_with.vg.json
+│
+└── index.html
+```
 
-**Data Science & Machine Learning**  
-Python • Scikit-learn • TensorFlow • PyTorch • Predictive Modelling • Classification • Feature Engineering • Statistical Analysis • NLP • BERT • Anomaly Detection • MCMC • Reinforcement Learning • Ensemble Learning
+The `.vg.json` files contain the Vega-Lite visualization specifications, while the `Data`, `css`, and `js` folders contain the supporting datasets, styling, and JavaScript used by the dashboard.
 
-**Analytics & Business Intelligence**  
-SQL • BigQuery • Power BI • Looker Studio • Google Analytics 4 • Tableau • ETL • Data Visualization • Dashboard Development • Reporting • Matplotlib • Seaborn
+## 🎯 Key Features
 
-**Programming & Data Technologies**  
-Python • R • SQL • MongoDB • Google Apps Script • APIs • Git • Bash • HTML/CSS • Jupyter • Visual Studio • Figma
+- Interactive world map
+- Dynamic filtering by meat category
+- Continent-based filtering
+- Year slider for temporal exploration
+- GDP threshold filtering
+- Interactive tooltips
+- Multiple coordinated visualizations
+- Data storytelling with written insights
+- Web-based presentation
+- Live deployment using GitHub Pages
 
----
+## 💡 Insights Highlighted in the Dashboard
 
-## 🚀 Selected Projects
+The dashboard is designed to help users identify patterns such as:
 
-### 📉 Customer Churn Prediction
-Engineered features across a **50,000+ row dataset** to identify at-risk users and achieved **78% accuracy** using Logistic Regression and SVM classifiers.
+- Large differences in meat consumption per capita between countries
+- Long-term growth in meat production across different regions
+- Differences in production between meat categories
+- Regional shifts in meat production over time
+- Relationships between economic development and meat production per capita
 
-### 🧠 BERT-Based Intent Classification
-Fine-tuned **BERT** for sequence-based intent classification and improved the model's **F1 score by 12%** over the baseline.
+## 🎓 Skills Demonstrated
 
-### 🗄️ Business Intelligence Pipeline
-Built an analytics stack using **SQL and ETL**, centralizing reporting with **3NF-compliant fact and dimension tables**.
+This project demonstrates practical experience with:
 
-### 🎮 Hybrid Machine Learning Game Agent
-Developed an ensemble machine-learning game agent with engineered features, reaching **82.5% validation accuracy**, **0.798 validation F1**, and **28.18/32 evaluation performance**.
+- Data visualization
+- Interactive dashboard development
+- Data storytelling
+- Exploratory data analysis
+- Vega-Lite specification design
+- Web development
+- Filtering and interactive controls
+- Communicating analytical findings to non-technical audiences
 
-### 🤖 Reinforcement Learning Game Agent
-Implemented **Q-Learning** with a redesigned compact state representation and dynamic parameter decay to improve agent performance.
+## 🚀 Running the Project Locally
 
-### 🌍 World Values Survey — Behavioural Analytics
-Cleaned and analyzed a **50,000-row survey dataset** using missing-value handling, visualization, regression and clustering for country-level comparison.
+Clone the repository:
 
-### 📝 NLP Text Mining & Network Analytics
-Built a text-analysis workflow using a document-term matrix, cosine similarity and hierarchical clustering, achieving **90% genre alignment**, alongside network analysis.
+```bash
+git clone https://github.com/Syedfakhir03/FIT3179_VIZ_2.git
+```
 
-### ⚖️ Responsible Generative AI — Diffusion Bias Analysis
-Analyzed bias in diffusion-based image editing with **InstructPix2Pix**, conducted fairness analysis and designed a debiasing framework.
+Open the project folder:
 
----
+```bash
+cd FIT3179_VIZ_2
+```
 
-## 💼 Professional Experience
+Because the project loads local data and Vega-Lite specifications, it is best viewed through a local web server.
 
-### Data Science Intern — Kasatria Technologies Sdn Bhd
-**Dec 2025 – Mar 2026 | Kuala Lumpur, Malaysia**
+For example, with Python:
 
-- Automated Google service data pulls and a **GA4 custom-dimension workflow** using Google Apps Script and APIs
-- Worked across **GA4, BigQuery and Looker Studio** to validate reporting metrics and build analytical dashboards
-- Benchmarked anomaly-detection approaches in BigQuery, comparing **TimesFM**, **ARIMA Plus** and a z-score baseline
-- Applied **MCMC** and **Marketing Mix Modeling** frameworks to multi-channel attribution and marketing-effectiveness analysis
+```bash
+python -m http.server 8000
+```
 
-### Manager — Papersdock
-**Jan 2023 – Nov 2025 | Remote**
+Then open:
 
-- Managed end-to-end student accounting and onboarding for **1,500+ students**
-- Handled billing, collections, financial-aid administration and monthly financial reconciliation
-- Coordinated team schedules to support consistent onboarding, billing and student-support cycles
+```text
+http://localhost:8000
+```
 
----
+in your browser.
 
-## 📚 Education
+## 🔮 Possible Improvements
 
-**Bachelor of Computer Science in Data Science**  
-**Monash University — Kuala Lumpur, Malaysia**  
-Nov 2022 – Nov 2026 *(Expected)*
+Future improvements could include:
 
-**GPA:** 3.48 / 4.00
+- Updating the datasets with newer values
+- Improving mobile responsiveness
+- Adding richer hover interactions
+- Adding more country-level drill-downs
+- Adding downloadable chart data
+- Improving accessibility and color contrast
+- Reorganizing the codebase into a cleaner production-style structure
 
-**Relevant Coursework:**  
-Data Structures & Algorithms • Databases • Data Analysis • Data Visualization • Deep Learning • Artificial Intelligence • Probability & Statistics • Object-Oriented Programming
+## 👤 Author
 
----
+**Syed Fakhar Un Nabi**
 
-## 🏅 Certifications & Professional Development
-
-<details>
-<summary><b>View certifications</b></summary>
-<br>
-
-- Google Analytics Certification
-- Big Data and Machine Learning Fundamentals — Google
-- Introduction to AI and Machine Learning on Google Cloud
-- MLOps Fundamentals: Getting Started — Google
-- MLOps for Generative AI — Google
-- Project Management: Foundations and Initiation — University of Colorado Boulder
-- Project Management — Packt
-- Resource Management in Oracle Primavera P6 PPM Professional — Packt
-
-</details>
-
----
-
-## 📅 Project Planning & Controls
-
-Alongside data science, I have hands-on training with **Oracle Primavera P6 PPM Professional**:
-
-- Structured multi-tiered **Work Breakdown Structures (WBS)**
-- Built **Critical Path Method (CPM)** schedules
-- Configured project baselines and monitored schedule progress
-- Performed **Earned Value Analysis**, including Schedule Variance (SV) and Cost Variance (CV)
-- Assigned resources and carried out **resource leveling**
-
----
-
-## 🌟 Leadership
-
-**President — Table Tennis Club**
-
-Managed venue bookings, budgeting and committee coordination to improve member engagement and training efficiency.
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-stats-extended.vercel.app/api?username=Syedfakhir03&show_icons=true&theme=transparent&hide_border=true" alt="Syed Fakhar's GitHub stats" />
-<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Syedfakhir03&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Syedfakhir03&theme=transparent&hide_border=true)](https://git.io/streak-stats)
-
-</div>
+- GitHub: [Syedfakhir03](https://github.com/Syedfakhir03)
+- LinkedIn: [syed-fakhir](https://www.linkedin.com/in/syed-fakhir/)
 
 ---
 
-## 🎯 What I'm Focused On
-
-- Building practical **machine-learning and AI systems**
-- Improving **MLOps and production ML** skills
-- Exploring **NLP, deep learning and generative AI**
-- Developing stronger **data engineering and analytics pipelines**
-- Applying responsible and explainable AI methods to real-world problems
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm interested in opportunities and collaborations across **Data Science, Machine Learning, AI and Analytics**.
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-fakhir/)
-[![GitHub](https://img.shields.io/badge/Explore%20My%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Syedfakhir03)
-
-</div>
-
----
-
-<div align="center">
-
-### Thanks for visiting! 👋
-
-</div>
+⭐ If you found this project interesting, feel free to explore the live dashboard and repository.
